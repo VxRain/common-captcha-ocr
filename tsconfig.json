@@ -1,0 +1,14 @@
+{
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "rootDir": "./src",
+    "outDir": "dist"
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
